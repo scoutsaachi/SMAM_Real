@@ -53,6 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-get ':controller(/:action(/:id))'
-post ':controller(/:action(/:id))'
+  get '/volunteer', to: 'index#volunteer'
+  get '/cdproject', to: 'index#cdproject'
+  get '/team', to: 'index#team'
+  get 'contact', to: 'index#contact'
 end

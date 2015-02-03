@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	<title><%=@title %></title>
+	<title><%= @title %></title>
 </head>
 <body>
 
@@ -17,16 +17,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class = "navbar-brand" href = "#picture">SMAM</a>
+        <a class = "navbar-brand" href = "/">SMAM</a>
       </div>
 
       <div class = "collapse navbar-collapse" id = "main-header">
         <ul class = "nav navbar-nav navbar-right">
-          <li><a href="#about" >About</a></li>
-          <li><a href="#volunteer">Volunteer</a></li>
-          <li><a href="#cdproject">CD Project</a></li>
-          <li><a href="#team">Our Team</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="/" >About</a></li>
+          <li><a href="/volunteer">Volunteer</a></li>
+          <li><a href="/cdproject">CD Project</a></li>
+          <li><a href="/team">Our Team</a></li>
+          <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
